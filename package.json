@@ -4,13 +4,15 @@
   "description": "Bootstrap 4 workflow",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "deploy": "gh-pages -d src"
   },
   "author": "Brad Traversy",
+  "homepage": "https://github.com/eslamabdo164/looplab",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "4.0.0-beta",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.2.1",
     "natives": "^1.1.6",
     "popper.js": "^1.12.0"
