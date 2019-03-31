@@ -1,0 +1,49 @@
+body {
+  background-color: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8; }
+
+#menuCollase li {
+  padding-right: 1.2rem; }
+
+#main-section {
+  background: url("../img/main-bg.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed; }
+  #main-section .overlay-layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 700px; }
+  #main-section .main-content {
+    padding-top: 150px; }
+  #main-section .cardstyle {
+    opacity: 0.8; }
+  #main-section .fa {
+    background-color: #008ed6;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px; }
+
+/*--Section Explore --*/
+#explore .fa {
+  background-color: #333;
+  color: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+/* create*/
+#create .fa, #share .fa {
+  background-color: #008ed6;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px; }
+
+#create-head .btn-outline-light, #explore-head .btn-outline-light, #share-head .btn-outline-light {
+  transition: all 0.3s ease-in-out; }
+
+#create-head .btn-outline-light:hover, #explore-head .btn-outline-light:hover, #share-head .btn-outline-light:hover {
+  color: #008ed6; }
