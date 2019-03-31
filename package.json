@@ -7,7 +7,7 @@
     "deploy": "gh-pages -d src"
   },
   "author": "Brad Traversy",
-  "homepage": "https://github.com/eslamabdo164/looplab",
+  "homepage": "https://eslamabdo164.github.io/looplab",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "4.0.0-beta",
